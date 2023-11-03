@@ -23,23 +23,23 @@ Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
 Uygulama varsayılan olarak http://localhost:3000 adresinde çalışacaktır.
 
-Kullanım
-# Tarayıcınızda http://localhost:3000/ adresine giderek kullanıcı girişi ve kaydı yapabilirsiniz.
-# http://localhost:3000/login.html adresi üzerinden giriş yapabilirsiniz.
-# http://localhost:3000/index.html adresi üzerinden kayıt olabilirsiniz.
+## Kullanım
+- Tarayıcınızda http://localhost:3000/ adresine giderek kullanıcı girişi ve kaydı yapabilirsiniz.
+- http://localhost:3000/login.html adresi üzerinden giriş yapabilirsiniz.
+- http://localhost:3000/index.html adresi üzerinden kayıt olabilirsiniz.
 
-Klasör Yapısı
-# public/ - Ana HTML, CSS ve JS dosyalarını içerir.
-# server.js - Express sunucusunun ana dosyası.
-# user.db - SQLite veritabanı dosyası.
+## Klasör Yapısı
+- public/ - Ana HTML, CSS ve JS dosyalarını içerir.
+- server.js - Express sunucusunun ana dosyası.
+- user.db - SQLite veritabanı dosyası.
 
-Test
-# public/sqlTest - users.db database'ne verilen kaydedilip kaydedilmediğini kontrol etmek amacıyla oluşturulmuş test uygulamasıdır. Elde edilen sonu. sqlTest/sql_info.txt'ye yazılır
+## Test
+- public/sqlTest - users.db database'ne verilen kaydedilip kaydedilmediğini kontrol etmek amacıyla oluşturulmuş test uygulamasıdır. Elde edilen sonu. sqlTest/sql_info.txt'ye yazılır
 
-Kullanılan Teknolojiler
-Node.js
-Express.js
-SQLite
+## Kullanılan Teknolojiler
+- Node.js
+-Express.js
+- SQLite
 
-Lisans
-Bu proje MIT lisansı altında lisanslanmıştır.
+## Lisans
+## Bu proje MIT lisansı altında lisanslanmıştır.
