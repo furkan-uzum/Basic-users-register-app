@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+  color: palevioletred;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #4caf50, #2196f3); /* Arka plan rengi */
+  animation: gradientAnimation 15s ease infinite; /* Arka plan için animasyon */
+}
+
+@keyframes gradientAnimation {
+  0% { background: linear-gradient(45deg, #4caf50, #2196f3); }
+  25% { background: linear-gradient(45deg, #2196f3, #9c27b0); }
+  50% { background: linear-gradient(45deg, #9c27b0, #ff5722); }
+  75% { background: linear-gradient(45deg, #ff5722, #fbc02d); }
+  100% { background: linear-gradient(45deg, #fbc02d, #4caf50); }
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  margin: 10px 0;
+  padding: 8px;
+  width: calc(100% - 16px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 8px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
