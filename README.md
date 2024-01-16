@@ -18,7 +18,7 @@ Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 1.2 Uygulamayı başlatın:
     npm start
 
-1.3 Database'i kontrol yapın
+1.3 Database kontrolü yapın
     node test
 
 Uygulama varsayılan olarak http://localhost:3000 adresinde çalışacaktır.
